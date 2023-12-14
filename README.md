@@ -1,17 +1,18 @@
-JAVASCRIPT ARRAY METHODS
+JAVASCRIPT ARRAY METHODS:
+
 There are different types of array methods in JavaScript
-Array length
-Array toString()
-Array pop()
-Array push()
-Array shift()
-Array unshift()
-Array join()
-Array delete()
-Array concat()
-Array flat()
-Array splice()
-Array slice()	
+1. Array length
+2. Array toString()
+3. Array pop()
+4. Array push()
+5. Array shift()
+6. Array unshift()
+7. Array join()
+8. Array delete()
+9. Array concat()
+10. Array flat()
+11. Array splice()
+12. Array slice()	
 
 1. Array Length: The length property returns the length of an array.
 2. The toString() Method: The toString() method returns an array as a comma-separated string.
@@ -26,34 +27,62 @@ Array slice()
 11. The splice() Method: The splice() method adds new elements to an array. It also adds new elements to an array and returns an array with the deleted elements.
 12. The slice() Method: It can be used to slice out a part of an array starting from an array element specified.
 
-JAVASCRIPT FUNCTIONS
+JAVASCRIPT FUNCTIONS:
 A Javascript function is a block of code designed to perform a particular task. It is executed when it is been invoked or called.
 Moreso, it can be used to compute a calculation by calling a function that performs a calculation and returns the result.
 
-JAVASCRIPT FUNCTION SYNTAX
+JAVASCRIPT FUNCTION SYNTAX:
 A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().
 Parameter names separated by commas are included in the parenthesis: (parameter1, parameter2, ...), wwhile the code to be executed, by the function, is placed inside curly brackets: {}
 
-SIGNIFICANCE OF FUNCTIONS
+SIGNIFICANCE OF FUNCTIONS:
 1.It helps developers to reuse code.
 2.Codes can be written and used many times.
 3. The same code can be used with different arguments, to produce different results.
 4. Functions Used as Variable Values
 Variables declared within a JavaScript function, become LOCAL to the function, which can only be accessed within the function.
 
-CONTROL FLOWS
+CONTROL FLOWS:
 Control flow statements are a fundamental part of any programming language, including JavaScript. They allow developers to control the order in which statements are executed in your program, based on certain conditions or criteria.
+
 In JavaScript, there are three main types of control flow statements:
+
 A. if/else statements
 B. switch statements
 C. loops.
-A. If/else statements
+
+A. If/else statements:
 The if…else statement executes a block of code if a specified condition is true. If the condition is false, another block of code can be executed.
-B. Switch Statements
+
+B. Switch Statements:
 Switch statements are used to execute a block of code based on the value of a variable or expression.
-C. Loops
-Loops are used to execute a block of code multiple times, based on a certain condition. There are two main types of loops in JavaScript: for loops and while loops.
-While Loops
+
+C. Loops:
+Loops are used to execute a block of code multiple times, based on a certain condition. 
+
+There are two main types of loops in JavaScript: for loops and while loops.
+
+While Loops:
 A while loop simply repeats itself while something is true. Theoretically a while loop can loop forever. It continues until the condition is false.
-While and Do…While Loops
+
+While and Do…While Loops:
 The while loop executes a specified statement as long as the test condition evaluates to true. The do…while loop will first execute the code, then continue while the condition remains true.
+
+Functions:
+Functions are the main “building blocks” of the program. 
+We have built-in functions, like alert(message), prompt(message, default) and confirm(question). We can also create functions of our own.
+
+1. Local variables are variables declared inside a function and is only visible inside that function.
+2. Outer variables allows a function to be accessed as an outer variable
+3. Global variables are Variables declared outside of any function.
+
+Difference between a parameter and argument: A parameter is the variable listed inside the parentheses in the function declaration (it’s a declaration time term), while an argument is the value that is passed to the function when it is called (it’s a call time term).
+
+Default values:
+If a function is called, but an argument is not provided, then the corresponding value becomes undefined
+
+Returning a value:
+A function can return a value back into the calling code as the result.
+
+Function naming:
+A name should clearly describe what the function does. When we see a function call in the code, a good name instantly gives us an understanding what it does and returns.
